@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+
+body{
+	margin: 0;
+	background-color: #7A7A7A;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+	background-color: #494949;
+	border-bottom: 3.5px solid #ff9900;
+}
+
+header img{
+	height: 25%;
+	width: 25%;
+	animation-duration: 5s;
+  	animation-name: slidein;
+  	animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 70%;
+    width: 25%; 
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.content{
+	display: flex;
+	flex-direction:row;
+	border:3px solid #ff9900;
+	background-color: #494949;
+	margin: 2%;
+	border-radius: 15px 15px 15px 15px;
+	padding-bottom: 3%;
+	padding-top: 1%;
+}
+
+.description {
+	width: 50%;
+	margin-left: 5%;
+	margin-top: 5%;
+	border:3px solid #ff9900;
+	border-radius: 15px 15px 15px 15px;
+	padding: 2.5%;
+	background-color: #494949;
+	color:white;
+}
+
+
+.description2 {
+	width: 50%;
+	margin-left: 5%;
+	margin-top: 2.5%;
+	border:3px solid #ff9900;
+	border-radius: 15px 15px 15px 15px;
+	padding: 2.5%;
+	background-color: #494949;
+	color:white;
+	margin-bottom: 3%;
+
+}
+
+.section{
+	background-color: #494949;
+	border:3px solid #ff9900;
+	width: 60%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 1%;
+	border-radius: 15px 15px 15px 15px;
+
+}
+
+
+.screenshot{
+	width: 75%;
+	height: 75%;
+	margin-left: 5%;
+}
+
+.aside{
+	margin-top: 2%;
+	border:3px solid #ff9900;
+	background-color: #494949;
+	padding: 2.5%;
+	border-radius: 15px 15px 15px 15px;
+	margin-right:5%;
+
+}
+
+.aside3{
+	font-size:25px;
+	margin-top: 2%;
+	border:3px solid #ff9900;
+	background-color: #494949;
+	padding: 2.5%;
+	border-radius: 15px 15px 15px 15px;
+	margin-right:5%;
+	color: white;
+}
+
+.faussecommande{
+	color:#FF2160;
+}
+
+.faussecommande2{
+	color:#FF2160;
+	position:absolute;
+	left:2.5%;
+	bottom: -26.75%;
+}
+
+.faussecommande3{
+	color:#FF2160;
+	padding-top: 2%;
+}
+
+.faussecommande4{
+	color:#FF2160;
+	font-size: 17px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+.blabla{
+	margin-left: 10%;
+}
+
+.linklist{
+	padding-left: 5%;
+}
+
+
+footer{
+	background-color: #494949;
+	border-top: 3.5px solid #ff9900;
+}
+
+footer img{
+	height: 25%;
+	width: 25%;
+	animation-duration: 5s;
+  	animation-name: slidein;
+  	animation-iteration-count: infinite;
+}

@@ -43,7 +43,7 @@ header img{
 }
 
 .description {
-	width: 50%;
+	width: 75%;
 	margin-left: 5%;
 	margin-top: 5%;
 	border:3px solid #ff9900;
@@ -55,7 +55,7 @@ header img{
 
 
 .description2 {
-	width: 50%;
+	width: 75%;
 	margin-left: 5%;
 	margin-top: 2.5%;
 	border:3px solid #ff9900;
@@ -75,7 +75,7 @@ header img{
 	margin-left: 5%;
 	margin-top: 1%;
 	border-radius: 15px 15px 15px 15px;
-
+	padding-top: 0.75%;
 }
 
 
@@ -114,7 +114,7 @@ header img{
 	color:#FF2160;
 	position:absolute;
 	left:2.5%;
-	bottom: -26.75%;
+	bottom: -25%;
 }
 
 .faussecommande3{
@@ -128,17 +128,17 @@ header img{
 }
 
 a:link{
-	color: white;
+	color: #FF2160;
 	text-decoration: none;
 }
 
 a:active{
 	text-decoration: none;
-	color: white;
+	color: #FF2160;
 }
 
 a:visited{
-	color: white;
+	color: #FF2160;
 }
 
 .blabla{
@@ -147,6 +147,14 @@ a:visited{
 
 .linklist{
 	padding-left: 5%;
+	display: flex;
+	flex-direction: row;
+}
+
+.linklist img{
+	width: 75%;
+	height: 60%;
+	padding-left: 7%;
 }
 
 

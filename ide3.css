@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+
+body{
+	margin: 0%;
+	background-image: url('Images/notepadbackground2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header{
+	background-color: #e2e5e1;
+	border-bottom: 3.5px solid #a5cd60;
+	padding-top: 0.5%
+}
+
+header img{
+	height: 10%;
+	width: 7%;
+	animation-duration: 5s;
+  	animation-name: slidein;
+  	animation-iteration-count: 1;
+  	margin-left: 1%;
+  	border-right: 4px solid #cf5349;
+  	padding-right:0.2%;
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 70%;
+    width: 7%; 
+  }
+
+  to {
+    margin-left: 1%;
+  }
+}
+
+.rangement{
+	display: flex;
+	flex-direction: column;
+}
+
+.rangement2{
+	display: flex;
+	flex-direction: row;
+	width: 85%;
+	margin-left:11%;
+	margin-top: 2%;
+}
+
+.rangement3{
+	margin-left: 11%;
+	margin-bottom: 2%;
+}
+
+.rangement4{
+	display: flex;
+	margin-top: 2%;
+	margin-right: 0%;
+	font-weight: bolder;
+	text-align: justify;
+	font-family: 'Source Code Pro', monospace;
+	background-color: rgba(0, 0, 0, 0.5);
+	border:3px solid #a5cd60;
+	border-radius: 15px 15px 15px 15px;
+	padding: 1%;
+	color: white;
+
+}
+
+.description{
+	margin-right: 3%;
+}
+
+.description{
+	font-weight: bolder;
+	text-align: justify;
+	font-family: 'Source Code Pro', monospace;
+	background-color: rgba(0, 0, 0, 0.5);
+	border:3px solid #a5cd60;
+	border-radius: 15px 15px 15px 15px;
+	padding: 1%;
+	color: white;
+}
+
+.screenshot{
+	margin-right: 0%;
+}
+
+.download{
+	margin-left:3%;
+	margin-right:3%;
+	display: flex;
+	margin-top: 10%;
+	font-size: 200%;
+}
+
+
+a:link{
+	color: #FF2160;
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+	color: #FF2160;
+}
+
+a:visited{
+	color: #FF2160
+}

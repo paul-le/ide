@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+body{
+	background-color:#181818;
+	margin:0;
+	font-family: 'Inconsolata', monospace;
+	color:#d8a95e;
+}
+
+header{
+	background-color: #202021;
+	border-bottom:3px solid #0079cd;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	margin-top: 2%;
+}
+
+.description{
+	width: 50%;
+	margin-top: 1.5%;
+	border:3px solid #0079cd;
+	padding: 1%;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.description:hover{
+	font-size: 125%;
+	transition: all 0.5s ease-out;
+}
+
+.description2{
+	border:3px solid #0079cd;
+	padding: 1%;
+	border-radius: 15px 15px 15px 15px;
+	width: 50%;
+	margin-top: 2%;
+}
+
+.descriptionglobale{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20%;
+}
+
+header img{
+	height: 25%;
+	width: 25%;
+	animation-duration: 5s;
+  	animation-name: slidein;
+  	animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 70%;
+    width: 25%; 
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.screenshot img{
+	width: 200%;
+	height: 100%;
+}
+
+.screenshot:hover{
+	width: 170%;
+	height: 170%;
+	transition: all 0.5s ease-out;
+}
+
+a:link{
+	color: #859e4c;
+	text-decoration: none;
+}
+a:visited{
+	color: #859e4c;
+	text-decoration: none;
+}
+
+a:active{
+	color: #859e4c;
+	text-decoration: none;
+}
+
+²
